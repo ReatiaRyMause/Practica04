@@ -2,7 +2,11 @@
   "name": "vmam1805",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ReatiaRyMause/Practica04.git",
+  "homepage": "https://ReatiaRyMause.github.io/Practica04",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ReatiaRyMause/Practica04.git"
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -20,7 +24,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
